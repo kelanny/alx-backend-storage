@@ -215,4 +215,25 @@ You can use this dump as data sample: dump.zip
 
 The output of your script must be exactly the same as the example
 
-### Task: 
+### Task: 13. Regex filter
+#advanced
+Write a script that lists all documents with name starting by Holberton in the collection school:
+
+- The database name will be passed as option of mongo command
+
+### Task: 14. Top students
+#advanced
+Write a Python function that returns all students sorted by average score:
+
+- Prototype: def top_students(mongo_collection):
+- mongo_collection will be the pymongo collection object
+- The top must be ordered
+- The average score must be part of each item returns with key = averageScore
+
+
+### Task: 15. Log stats - new version
+#advanced
+Improve 12-log_stats.py by adding the top 10 of the most present IPs in the collection nginx of the database logs:
+
+- The IPs top must be sorted (like the example below)
+

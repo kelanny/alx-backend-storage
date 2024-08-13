@@ -1,0 +1,4 @@
+// Use the database specified in the connection string
+var db = connect("mongodb://" + db.getName());
+db.school.find({ name: /^Holberton/ }).forEach(printjson);
+
